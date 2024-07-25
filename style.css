@@ -43,7 +43,7 @@ header img {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url(fondo.png);
+    background-image: url(/fondo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
