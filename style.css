@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+
+header {
+    margin: 0; /* Elimina márgenes en el header */
+    padding: 0.5rem; /* Elimina rellenos en el header */
+    position: fixed; /* Fija el header en la parte superior */
+     top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Ajusta según el tamaño de tu header */
+    background-color: rgba(0, 0, 0, 0.507); /* Fondo transparente por defecto */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Centra el contenido horizontalmente */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+    z-index: 1000; 
+}
+
+header img {
+    height: 70px;
+    width: auto;
+    margin-top: 0;
+}
+
+.container-header {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.textoDeInicio {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/imagenes/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.textoDeInicio h1 { 
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+
+.container-botones {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 30vh;
+}
+
+.container-botones a {
+    text-decoration: none;
+}
+
+.estudiante, .docente, .interesado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    color: white;
+    padding:2.5rem ;
+    margin: 10px; 
+    cursor: pointer;
+    cursor: pointer;
+    width: calc(100% - 40px); 
+    max-width: 250px;
+    text-transform: uppercase;
+}
+
+
+
